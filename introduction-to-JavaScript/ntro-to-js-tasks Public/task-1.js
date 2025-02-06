@@ -1,5 +1,5 @@
-var  TotalTaka= 1000;
-var applePriceAndorangePrice =700;
-var ReturnTaka= TotalTaka - applePriceAndorangePrice;
-console.log(ReturnTaka);
+var TotalTaka = parseInt(prompt("Total Taka :"));
+var applePriceAndorangePrice = parseInt(prompt("apple Price And orange Price :"));
+var ReturnTaka = TotalTaka - applePriceAndorangePrice;
+console.log("total", ReturnTaka);
 
